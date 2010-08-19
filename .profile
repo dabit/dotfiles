@@ -25,4 +25,4 @@ alias r=rails
 alias ga="git add"
 alias gr="git rm"
 
-PS1="\n[\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]] \[\e[1;33m\]\w\[\e[0m\] \n\[\e[1;37m\]> \[\e[0m\]"
+PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]]\n\[\e[1;37m\]> \[\e[0m\]"
