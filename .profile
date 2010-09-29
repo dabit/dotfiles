@@ -8,8 +8,8 @@ export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin/:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
-  if [ -f /opt/local/etc/bash_completion ]; then
-      . /opt/local/etc/bash_completion
+  if [ -f /usr/local/Cellar/git/1.7.3/etc/bash_completion.d/git-completion.bash ]; then
+      . /usr/local/Cellar/git/1.7.3/etc/bash_completion.d/git-completion.bash
   fi
 
 #if [[ -s /Users/dab/.rvm/scripts/rvm ]] ; then source /Users/dab/.rvm/scripts/rvm ; fi
@@ -24,5 +24,15 @@ alias gpl="git pull"
 alias r=rails
 alias ga="git add"
 alias gr="git rm"
+alias clean="find . -name "*.orig" -print -exec rm {} \;"
 
 PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]]\n\[\e[1;37m\]\$ \[\e[0m\]"
+
+##
+# Your previous /Users/dab/.profile file was backed up as /Users/dab/.profile.macports-saved_2010-09-24_at_15:05:05
+##
+
+# MacPorts Installer addition on 2010-09-24_at_15:05:05: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
