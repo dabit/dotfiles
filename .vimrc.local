@@ -1,0 +1,8 @@
+# Font and Size
+set gfn=Menlo:h16
+
+# Key Bindings for Command-T
+map <Leader>r :CommandTFlush<CR>
+
+# NERDTree
+let NERDTreeQuitOnOpen=1

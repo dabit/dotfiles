@@ -1,6 +1,1 @@
-!.ssh/config
-*
-!.profile
-!.gitignore
-!.gemrc
-!.gitconfig
+**.swp
