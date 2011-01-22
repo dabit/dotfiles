@@ -1,8 +1,11 @@
-# Font and Size
+" Font and Size
 set gfn=Menlo:h16
 
-# Key Bindings for Command-T
+" Key Bindings for Command-T
 map <Leader>r :CommandTFlush<CR>
 
-# NERDTree
+" NERDTree
 let NERDTreeQuitOnOpen=1
+
+" Blog commands
+map <Leader>h i{% highlight ruby %}<Esc>o{% endhighlight %}<Esc>0ko  <Esc>
