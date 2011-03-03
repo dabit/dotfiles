@@ -9,3 +9,10 @@ let NERDTreeQuitOnOpen=1
 
 " Blog commands
 map <Leader>h i{% highlight ruby %}<Esc>o{% endhighlight %}<Esc>0ko  <Esc>
+
+set transparency=15
+
+color molokai
+
+set guioptions=aAce
+
