@@ -10,9 +10,23 @@ let NERDTreeQuitOnOpen=1
 " Blog commands
 map <Leader>h i{% highlight ruby %}<Esc>o{% endhighlight %}<Esc>0ko  <Esc>
 
-set transparency=15
-
 color molokai
 
 set guioptions=aAce
 
+set expandtab
+set tabstop=2
+
+set colorcolumn=80
+
+map <leader>c :!cucumber -rfeatures -fhtml % > cukeout.html ; open cukeout.html<CR>
+
+map <leader>o :CommandTBuffer<CR>
+
+function! VimGrepRuby(...)
+  execute ":vimgrep /".a:1"/ **/*.rb | :copen"
+endfunction
+
+:com! -nargs=1 Grb call VimGrepRuby(<f-args>)
+
+map <leader>g :Grb 

@@ -4,12 +4,12 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 export EDITOR=mvim
 
 # MacPorts Installer addition on 2010-05-22_at_16:51:39: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin/:$PATH
+export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin/:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
-  if [ -f /usr/local/Cellar/git/1.7.3/etc/bash_completion.d/git-completion.bash ]; then
-      . /usr/local/Cellar/git/1.7.3/etc/bash_completion.d/git-completion.bash
+  if [ -f /usr/local/Cellar/git/1.7.4.1/etc/bash_completion.d/git-completion.bash ]; then
+      . /usr/local/Cellar/git/1.7.4.1/etc/bash_completion.d/git-completion.bash
   fi
 
 #if [[ -s /Users/dab/.rvm/scripts/rvm ]] ; then source /Users/dab/.rvm/scripts/rvm ; fi
@@ -25,6 +25,8 @@ alias r=rails
 alias ga="git add"
 alias gr="git rm"
 alias clean="find . -name \"*.orig\" -print -exec rm {} \;"
+alias be="bundle exec"
+alias cuke="be cucumber -rfeatures -fprogress"
 
 PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]]\n\[\e[1;37m\]\$ \[\e[0m\]"
 
