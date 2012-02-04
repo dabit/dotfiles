@@ -3,6 +3,8 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 export EDITOR=mvim
 
+export GREP_OPTIONS="--colour"
+
 # MacPorts Installer addition on 2010-05-22_at_16:51:39: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin/:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
