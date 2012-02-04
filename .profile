@@ -10,13 +10,13 @@ export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin/:
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
-  if [ -f /usr/local/Cellar/git/1.7.4.1/etc/bash_completion.d/git-completion.bash ]; then
-      . /usr/local/Cellar/git/1.7.4.1/etc/bash_completion.d/git-completion.bash
+  if [ -f /usr/local/Cellar/git/1.7.6/etc/bash_completion.d/git-completion.bash ]; then
+      . /usr/local/Cellar/git/1.7.6/etc/bash_completion.d/git-completion.bash
   fi
 
 #if [[ -s /Users/dab/.rvm/scripts/rvm ]] ; then source /Users/dab/.rvm/scripts/rvm ; fi
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 set -o vi
 alias gs="git status"
@@ -28,9 +28,16 @@ alias ga="git add"
 alias gr="git rm"
 alias clean="find . -name \"*.orig\" -print -exec rm {} \;"
 alias be="bundle exec"
-alias cuke="be cucumber -rfeatures -fprogress"
+alias ber="bundle exec rake"
+alias brs="bundle exec rspec"
+alias cuke="be cucumber -rfeatures"
+alias cake="rake"
+alias tag="ctags -R app lib"
+alias rb="rbenv"
+alias rbe="rbenv exec"
 
-PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]]\n\[\e[1;37m\]\$ \[\e[0m\]"
+#PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]]\n\[\e[1;37m\b\$ \[\e[0m\]"
+PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rbenv/bin/rbenv version-name)\[\e[0m\]]\n\[\e[1;37m\]\$ \[\e[0m\]"
 
 ##
 # Your previous /Users/dab/.profile file was backed up as /Users/dab/.profile.macports-saved_2010-09-24_at_15:05:05
@@ -47,3 +54,7 @@ export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
 export RUBY_GC_MALLOC_LIMIT=50000000
 
 export VMAIL_VIM=mvim
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
