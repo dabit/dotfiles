@@ -38,7 +38,7 @@ alias rbe="rbenv exec"
 alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
 
 #PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]]\n\[\e[1;37m\b\$ \[\e[0m\]"
-PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rbenv/bin/rbenv version-name)\[\e[0m\]]\n\[\e[1;37m\]\$ \[\e[0m\]"
+PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(/usr/local/bin/rbenv version-name)\[\e[0m\]]\n\[\e[1;37m\]\$ \[\e[0m\]"
 
 ##
 # Your previous /Users/dab/.profile file was backed up as /Users/dab/.profile.macports-saved_2010-09-24_at_15:05:05
