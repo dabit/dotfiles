@@ -35,6 +35,7 @@ alias cake="rake"
 alias tag="ctags -R app lib"
 alias rb="rbenv"
 alias rbe="rbenv exec"
+alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
 
 #PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rvm/bin/rvm-prompt)\[\e[0m\]]\n\[\e[1;37m\b\$ \[\e[0m\]"
 PS1="\n\[\e[1;33m\]\w\[\e[0m\] [\[\e[1;31m\]\$(~/.rbenv/bin/rbenv version-name)\[\e[0m\]]\n\[\e[1;37m\]\$ \[\e[0m\]"
