@@ -1,0 +1,25 @@
+[user]
+  name = David Padilla
+  email = david@crowdint.com
+[push]
+  default = current
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  p  = push
+  wc = whatchanged -p
+  g = log --pretty=format:\"%x1b[31m%h%x09%x1b[32m%s %x1b[35m[%ae]%x1b[33m%d%x1b[0m%x20\" --graph
+  rh = reset --hard
+  cfd = clean -fd
+  fo = fetch origin
+[core]
+  editor = vim
+[mergetool "vimdiff3"]
+  cmd = vim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
