@@ -10,8 +10,8 @@ export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin/:
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
-  if [ -f /usr/local/Cellar/git/1.7.6/etc/bash_completion.d/git-completion.bash ]; then
-      . /usr/local/Cellar/git/1.7.6/etc/bash_completion.d/git-completion.bash
+  if [ -f /usr/local/Cellar/git/1.7.9.6/etc/bash_completion.d/git-completion.bash ]; then
+      . /usr/local/Cellar/git/1.7.9.6/etc/bash_completion.d/git-completion.bash
   fi
 
 #if [[ -s /Users/dab/.rvm/scripts/rvm ]] ; then source /Users/dab/.rvm/scripts/rvm ; fi
