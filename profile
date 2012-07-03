@@ -9,8 +9,8 @@ export EDITOR=mvim
 export GREP_OPTIONS="--colour"
 
 # git bash completion
-if [ -f /usr/local/Cellar/git/1.7.10/etc/bash_completion.d/git-completion.bash ]; then
-  . /usr/local/Cellar/git/1.7.10/etc/bash_completion.d/git-completion.bash
+if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
+  . /usr/local/etc/bash_completion.d/git-completion.bash
 fi
 
 # Use vi on the bash command line
