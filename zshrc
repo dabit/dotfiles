@@ -43,3 +43,11 @@ $ '
 
 # vi on command line
 bindkey -v
+
+# zsh
+alias vim="stty stop '' -ixoff ; vim"
+# `Frozing' tty, so after any command terminal settings will be restored
+ttyctl -f
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
