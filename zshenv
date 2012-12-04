@@ -26,6 +26,7 @@ alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
 alias berdbtp="bundle exec rake db:test:prepare"
 alias berap="bundle exec rake assets:precompile"
 alias mkdirp="mkdir -p "
+alias grepr="grep -R "
 
 # https://gist.github.com/1688857
 export RUBY_GC_MALLOC_LIMIT=1000000000
