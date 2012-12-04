@@ -23,6 +23,9 @@ alias tag="ctags -R app lib"
 alias rb="rbenv"
 alias rbe="rbenv exec"
 alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias berdbtp="bundle exec rake db:test:prepare"
+alias berap="bundle exec rake assets:precompile"
+alias mkdirp="mkdir -p "
 
 # REE
 export RUBY_HEAP_MIN_SLOTS=500000
