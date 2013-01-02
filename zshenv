@@ -27,6 +27,9 @@ alias berdbtp="bundle exec rake db:test:prepare"
 alias berap="bundle exec rake assets:precompile"
 alias mkdirp="mkdir -p "
 alias grepr="grep -R "
+alias bu="bundle update"
+alias bo="bundle open"
+alias rdbm="bundle exec rake db:migrate"
 
 # https://gist.github.com/1688857
 export RUBY_GC_MALLOC_LIMIT=1000000000
