@@ -23,3 +23,5 @@
   editor = vim
 [mergetool "vimdiff3"]
   cmd = vim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[github]
+	user = dabit
