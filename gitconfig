@@ -21,7 +21,8 @@
   fo = fetch origin
 [core]
   editor = vim
-[mergetool "vimdiff3"]
-  cmd = vim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	excludesfile = ~/.gitignore_global
 [github]
-	user = dabit
+  user = dabit
+[merge]
+	tool = opendiff
