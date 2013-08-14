@@ -7,6 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 ZSH_THEME="aussiegeek"
+ZSH_THEME="frisk"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -30,7 +31,7 @@ ZSH_THEME="aussiegeek"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git heroku brew bundler rails)
+plugins=(git heroku brew bundler rails vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -51,3 +52,5 @@ ttyctl -f
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# source prez_profile.zsh
