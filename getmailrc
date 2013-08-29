@@ -1,0 +1,11 @@
+[retriever]
+type = SimpleIMAPSSLRetriever
+server = imap.gmail.com
+username = david.padilla@crowdint.com
+mailboxes = ALL
+[destination]
+type = Mboxrd
+path = ~/gmail-archive/gmail-backup.mbox
+[options]
+verbose = 2
+message_log = ~/getmail-archive/gmail.log
