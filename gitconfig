@@ -21,8 +21,8 @@
   fo = fetch origin
 [core]
   editor = vim
-	excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore_global
 [github]
   user = dabit
 [merge]
-	tool = opendiff
+  tool = opendiff
