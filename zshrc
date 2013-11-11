@@ -51,6 +51,6 @@ alias vim="stty stop '' -ixoff ; vim"
 ttyctl -f
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/heroku/bin:$PATH"
 
 # source prez_profile.zsh
