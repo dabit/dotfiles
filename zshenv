@@ -16,3 +16,4 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/bin:$PATH"
 
 source ~/.aliases
+source ~/.env
