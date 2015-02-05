@@ -5,6 +5,7 @@ alias gp="git push"
 alias gpl="git pull"
 alias r=rails
 alias ga="git add"
+alias gaw="git diff -w --no-color | git apply --cached --ignore-whitespace"
 alias gr="git rm"
 alias clean="find . -name \"*.orig\" -print -exec rm {} \;"
 alias be="bundle exec"
