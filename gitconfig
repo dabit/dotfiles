@@ -1,6 +1,6 @@
 [user]
   name = David Padilla
-  email = david@crowdint.com
+  email = david@easybroker.com
 [push]
   default = current
 [color]
@@ -19,6 +19,7 @@
   rh = reset --hard
   cfd = clean -fd
   fo = fetch origin
+  changelog = log --oneline
 [core]
   editor = vim
   excludesfile = ~/.gitignore_global
@@ -26,3 +27,5 @@
   user = dabit
 [merge]
   tool = opendiff
+[apply]
+  whitespace = nowarn
