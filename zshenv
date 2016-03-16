@@ -11,10 +11,12 @@ export GREP_OPTIONS="--colour"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 export PATH="/usr/local/bin:$PATH"
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 source ~/.aliases
 source ~/.env
+
+. ~/git/z/z.sh
+
