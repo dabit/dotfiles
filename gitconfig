@@ -1,6 +1,6 @@
 [user]
   name = David Padilla
-  email = david@easybroker.com
+  email = david@michelada.io
 [push]
   default = current
 [color]
@@ -31,11 +31,11 @@
 [apply]
   whitespace = nowarn
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true

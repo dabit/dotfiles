@@ -54,3 +54,5 @@ ttyctl -f
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/heroku/bin:$PATH"
 
 # source prez_profile.zsh
+
+eval "$(rbenv init -)"
