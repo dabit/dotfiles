@@ -56,3 +56,6 @@ export PATH="/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/heroku/bin
 # source prez_profile.zsh
 
 eval "$(rbenv init -)"
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
